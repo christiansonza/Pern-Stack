@@ -1,0 +1,112 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+nav{
+    background-color: #0369a1;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 3rem;
+}
+.list-container,.edit-container,.new-user{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 4rem;
+}
+.exl-btn{
+    background-color: #0369a1;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 4px;
+}
+.dl-excel{
+    display: flex;
+    justify-content: right;
+}
+.pdf-icon{
+    height: 2rem;
+    height: 2rem;
+    color: #991b1b;
+    cursor: pointer;
+}
+table{
+    width: 100%;
+    margin: auto;
+}
+.head-table,.body-table{
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+}
+th{
+    text-align: left;
+    padding: .5rem 0 .5rem;
+    border-bottom: 1px solid #ccc;
+}
+td{
+    padding: .25rem 0 .25rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+h2{
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: .5rem 1rem;
+    transition: 0.1s ease-in-out;
+    border-radius: 4px;
+}
+a:hover{
+    background-color: #045a89;
+}
+p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+.icon-container{
+    display: flex;
+    gap: 4px;
+    outline: none;
+}
+.edit-icon,.delete-icon{
+    background-color:#166534 ;
+    color: #fff;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.delete-icon{
+    background-color: #991b1b !important;
+}
+
+form{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .25rem;
+}
+input{
+    height: 2rem;
+    width: 12rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 0 .5rem;
+
+}
+.save-button{
+    background-color: #0369a1;
+    color: #fff;
+    padding: 0 1rem;
+    border-radius: 4px;
+}
